@@ -1,0 +1,30 @@
+.app_container {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+            "header header"
+            "sidebar content"
+            "footer footer";
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 20% 1fr;
+}
+
+.header {
+    grid-area: header;
+    background: cornflowerblue;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: lightskyblue;
+}
+
+.main_content {
+    grid-area: content;
+    min-height: 100vh;
+}
+
+.footer {
+    grid-area: footer;
+    background: yellow;
+}
