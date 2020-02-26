@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "title": "MERCEDES",
+    "author": "Дэн Браун",
+    "image": "https://images.ua.prom.st/1364985344_w640_h640_1364985344.jpg",
+    "price": 710,
+    "rating": 3
+  },
+  {
+    "id": 1,
+    "title": "BMW",
+    "author": "Джордж Оруэлл",
+    "image": "https://images.ua.prom.st/1364756374_w640_h640_1364756374.jpg",
+    "price": 415,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "AUDI",
+    "author": "Донато Карризи",
+    "image": "https://images.ua.prom.st/1364985804_w640_h640_1364985804.jpg",
+    "price": 464,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "RANGE ROVER",
+    "author": "Михаил Зыгарь",
+    "image": "https://images.ua.prom.st/1364985975_w640_h640_1364985975.jpg",
+    "price": 741,
+    "rating": 3
+  }
+ ]
