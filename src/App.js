@@ -6,11 +6,10 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
 import {connect} from "react-redux";
 import {setItemsCreator} from "./store/reducers/mersedes-reducer";
-import {Container} from "semantic-ui-react";
+
 
 function App(props) {
     return (
-        <Container>
             <div className="app_container">
                 <div className="header">
                     <Header/>
@@ -26,8 +25,6 @@ function App(props) {
                     <Footer/>
                 </div>
             </div>
-        </Container>
-
     );
 }
 

@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import 'semantic-ui-css/semantic.min.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Provider} from "react-redux";
 import store from "./store/store";
+import Container from '@material-ui/core/Container';
 
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+        <Container >
+            <App />
+        </Container>
     </Provider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
