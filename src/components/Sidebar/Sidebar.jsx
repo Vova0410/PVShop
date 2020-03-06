@@ -1,13 +1,11 @@
 import React from 'react';
 import * as  axios from 'axios';
 import {connect} from "react-redux";
-import {setItemsCreator} from "../../store/reducers/mersedes-reducer";
+import {setItemsCreator} from "../../store/reducers/car-reducer";
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import Fab from '@material-ui/core/Fab';
-import AddIcon from '@material-ui/icons/Add';
-
+import {NavLink} from "react-router-dom";
 
 
 class Sidebar extends React.Component {
@@ -18,14 +16,17 @@ class Sidebar extends React.Component {
     }
 
     render() {
-        console.log(this.props.mercedes, this.props.isReady);
+        console.log(this.props.cars, this.props.isReady);
         return (
             <List component="nav">
-                {!this.props.isReady ? 'Loading...' : this.props.mercedes.map((item, index) => (
-                    <ListItem button divider key={index}>
-                        <ListItemText primary={item.title} />
-                    </ListItem>
-            ))}
+                {!this.props.isReady ? 'Loading...' : this.props.cars.map((item, index) => (
+                    <NavLink to={item.url} key={index} style={{textDecoration: 'none'}}>
+                        <ListItem button divider >
+                            <ListItemText primary={item.title}/>
+                        </ListItem>
+                    </NavLink>
+
+                ))}
             </List>
         )
 
@@ -35,8 +36,8 @@ class Sidebar extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-    mercedes: state.mercedes.mercedes,
-    isReady: state.mercedes.isReady
+    cars: state.items.cars,
+    isReady: state.items.isReady
 });
 
 const mapDispatchToProps = (dispatch) => ({

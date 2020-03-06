@@ -19,7 +19,7 @@ function App(props) {
                     <Sidebar />
                 </div>
                 <div className="main_content">
-                    <MainContent/>
+                    <MainContent cars={props.cars} isReady={props.isReady} />
                 </div>
                 <div className="footer">
                     <Footer/>
@@ -29,8 +29,8 @@ function App(props) {
 }
 
 const mapStateToProps = (state) => ({
-    mercedes: state.mercedes.mercedes,
-    isReady: state.mercedes.isReady
+    cars: state.items.cars,
+    isReady: state.items.isReady
 });
 
 const mapDispatchToProps = (dispatch) => ({

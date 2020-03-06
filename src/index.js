@@ -6,13 +6,16 @@ import * as serviceWorker from './serviceWorker';
 import {Provider} from "react-redux";
 import store from "./store/store";
 import Container from '@material-ui/core/Container';
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
-    <Provider store={store}>
-        <Container >
-            <App />
-        </Container>
-    </Provider>, document.getElementById('root'));
+    <BrowserRouter>
+        <Provider store={store}>
+            <Container >
+                <App />
+            </Container>
+        </Provider>
+    </BrowserRouter>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

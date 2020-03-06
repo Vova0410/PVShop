@@ -2,7 +2,8 @@
   {
     "id": 0,
     "title": "MERCEDES",
-    "author": "Дэн Браун",
+    "models": "Дэн Браун",
+    "url" : "/mercedes",
     "image": "https://images.ua.prom.st/1364985344_w640_h640_1364985344.jpg",
     "price": 710,
     "rating": 3
@@ -10,15 +11,62 @@
   {
     "id": 1,
     "title": "BMW",
-    "author": "Джордж Оруэлл",
+    "models": [
+      {
+        "modelName": "5 SERIES (E39 TOURING) (1997-2004)",
+        "modelImg": "https://images.ua.prom.st/1376223231_w265_h160_5-series-e39.jpg",
+        "airSuspensions": [{}, {}]
+      },
+      {
+        "modelName": "5 SERIES (E61) (2003-2010)",
+        "modelImg": "https://images.ua.prom.st/1361507965_w265_h160_5-series-e61.jpg",
+        "airSuspensions": [{}, {}]
+      },
+      {
+        "modelName": "5 SERIES (F11) (2010-2017)",
+        "modelImg": "https://images.ua.prom.st/1412440945_w265_h160_5-series-f11.jpg",
+        "airSuspensions": [{}, {}]
+      },
+      {
+        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelImg": "https://images.ua.prom.st/1376801654_w265_h160_5-series-gt.jpg",
+        "airSuspensions": [{}, {}]
+      },
+      {
+        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelImg": "https://images.ua.prom.st/1375038415_w265_h160_x5-e53-1999-2006.jpg",
+        "airSuspensions": [{}, {}]
+      },
+      {
+        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelImg": "https://images.ua.prom.st/1376779263_w265_h160_x5-e70-2007-2013.jpg",
+        "airSuspensions": [{}, {}]
+      },
+      {
+        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelImg": "https://images.ua.prom.st/1376790640_w265_h160_x6-e71-2008-2014.jpg",
+        "airSuspensions": [{}, {}]
+      },
+      {
+        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelImg": "https://images.ua.prom.st/1360704362_w265_h160_x5-f15-2013-.jpg",
+        "airSuspensions": [{}, {}]
+      },
+      {
+        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelImg": "https://images.ua.prom.st/1412406313_w265_h160_x6-f16-2014-.jpg",
+        "airSuspensions": [{}, {}]
+      }
+    ],
+    "url" : "/bmw",
     "image": "https://images.ua.prom.st/1364756374_w640_h640_1364756374.jpg",
-    "price": 415,
     "rating": 5
   },
   {
     "id": 2,
     "title": "AUDI",
-    "author": "Донато Карризи",
+    "models": "Донато Карризи",
+    "url" : "/audi",
     "image": "https://images.ua.prom.st/1364985804_w640_h640_1364985804.jpg",
     "price": 464,
     "rating": 4
@@ -26,7 +74,8 @@
   {
     "id": 3,
     "title": "RANGE ROVER",
-    "author": "Михаил Зыгарь",
+    "models": "Михаил Зыгарь",
+    "url": "range-rover",
     "image": "https://images.ua.prom.st/1364985975_w640_h640_1364985975.jpg",
     "price": 741,
     "rating": 3

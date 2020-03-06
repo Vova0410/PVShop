@@ -3,12 +3,12 @@
  */
 import {createStore ,combineReducers, applyMiddleware} from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
-import {mercedesReducer} from "./reducers/mersedes-reducer";
 import thunk from 'redux-thunk';
+import {carsReducer} from "./reducers/car-reducer";
 
 
 const reducers = combineReducers({
-    mercedes: mercedesReducer
+    items: carsReducer
 });
 
 const store = createStore(reducers, composeWithDevTools(applyMiddleware(thunk)));

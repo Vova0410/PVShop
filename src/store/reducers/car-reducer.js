@@ -1,19 +1,18 @@
 /**
- * Created by Dell on 26.02.2020.
+ * Created by Dell on 01.03.2020.
  */
-/*
 let initialState = {
-    mercedes: [],
+    cars: [],
     isReady: false
 };
 
-export const mercedesReducer = (state = initialState, action) => {
+export const carsReducer = (state = initialState, action) => {
     switch(action.type) {
         case 'SET_ITEMS':
             return{
                 ...state,
+                cars: action.payload,
                 isReady: true,
-                mercedes: action.payload.filter(o => )
             };
 
         default: return state;
@@ -26,4 +25,4 @@ export const setItemsCreator = (items) => {
         type: 'SET_ITEMS',
         payload: items
     }
-};*/
+};
