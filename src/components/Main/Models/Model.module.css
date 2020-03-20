@@ -1,0 +1,31 @@
+.model_link{
+    text-decoration: none;
+}
+
+.container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    padding-left: 10%;
+}
+
+.img_wrapper{
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.active_model_link{
+    color: yellowgreen;
+    opacity: .5;
+    /*box-shadow: 0 0 10px yellowgreen;*/
+}
+
+
+.img{
+    max-width: 100%;
+
+}

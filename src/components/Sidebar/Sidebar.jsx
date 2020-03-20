@@ -16,9 +16,9 @@ class Sidebar extends React.Component {
     }
 
     render() {
-        console.log(this.props.cars, this.props.isReady);
+        //console.log(this.props.cars, this.props.isReady);
         return (
-            <List component="nav">
+            <List component="nav" style={{paddingTop: 0}}>
                 {!this.props.isReady ? 'Loading...' : this.props.cars.map((item, index) => (
                     <NavLink to={item.url} key={index} style={{textDecoration: 'none'}}>
                         <ListItem button divider >

@@ -13,49 +13,77 @@
     "title": "BMW",
     "models": [
       {
+        "modelId" : "e39",
         "modelName": "5 SERIES (E39 TOURING) (1997-2004)",
         "modelImg": "https://images.ua.prom.st/1376223231_w265_h160_5-series-e39.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [
+          {
+            "airsusId": "e39L",
+            "airsusImg": "https://images.ua.prom.st/1425385725_w1280_h1280_pnevmopodushki_bmv_39.jpg?fresh=1",
+            "airsusTitle": "Пневмоподушка BMW 5-series(e39) ЛЕВАЯ"
+          },
+          {
+            "airsusId": "e39R",
+            "airsusImg": "https://images.ua.prom.st/1425385725_w1280_h1280_pnevmopodushki_bmv_39.jpg?fresh=1",
+            "airsusTitle": "Пневмоподушка BMW 5-series(e39) ПРАВАЯ"
+          }],
+        "modelUrl": "/bmw/e39"
       },
       {
+        "modelId" : "e61",
         "modelName": "5 SERIES (E61) (2003-2010)",
         "modelImg": "https://images.ua.prom.st/1361507965_w265_h160_5-series-e61.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [{}, {}],
+        "modelUrl": "/bmw/e61"
       },
       {
+        "modelId" : "f11",
         "modelName": "5 SERIES (F11) (2010-2017)",
         "modelImg": "https://images.ua.prom.st/1412440945_w265_h160_5-series-f11.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [{}, {}],
+        "modelUrl": "/bmw/f11"
       },
       {
+        "modelId" : "f07",
         "modelName": "5 SERIES GT (F07) (2009-2017)",
         "modelImg": "https://images.ua.prom.st/1376801654_w265_h160_5-series-gt.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [{}, {}],
+        "modelUrl": "/bmw/f07"
       },
       {
-        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelId" : "e53",
+        "modelName": "X5 (E53) (1999-2006)",
         "modelImg": "https://images.ua.prom.st/1375038415_w265_h160_x5-e53-1999-2006.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [{}, {}],
+        "modelUrl": "/bmw/e53"
       },
       {
-        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelId" : "e70",
+        "modelName": "X5 (E70) (2007-2013)",
         "modelImg": "https://images.ua.prom.st/1376779263_w265_h160_x5-e70-2007-2013.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [{}, {}],
+        "modelUrl": "/bmw/e70"
       },
       {
-        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelId" : "e71",
+        "modelName": "X6 (E71) (2008-2014)",
         "modelImg": "https://images.ua.prom.st/1376790640_w265_h160_x6-e71-2008-2014.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [{}, {}],
+        "modelUrl": "/bmw/e71"
       },
       {
-        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelId" : "f15",
+        "modelName": "X5 (F15) (2013-)",
         "modelImg": "https://images.ua.prom.st/1360704362_w265_h160_x5-f15-2013-.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [{}, {}],
+        "modelUrl": "/bmw/f15"
       },
       {
-        "modelName": "5 SERIES GT (F07) (2009-2017)",
+        "modelId" : "f16",
+        "modelName": "X6 (F16) (2014-)",
         "modelImg": "https://images.ua.prom.st/1412406313_w265_h160_x6-f16-2014-.jpg",
-        "airSuspensions": [{}, {}]
+        "airSuspensions": [{}, {}],
+        "modelUrl": "/bmw/f16"
       }
     ],
     "url" : "/bmw",
