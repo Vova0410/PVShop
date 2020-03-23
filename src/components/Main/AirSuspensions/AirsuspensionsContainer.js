@@ -10,7 +10,7 @@ import {Route, withRouter} from "react-router-dom";
 const AirsuspensionsContainer = (props) => {
 console.log("AirsuspensionsContainer", props);
     return(
-       "Airsuspensions"
+       props.match.params.carName
     )
 };
 
